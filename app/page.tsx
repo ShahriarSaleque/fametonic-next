@@ -38,7 +38,7 @@ export default function Home() {
       {/* Main Content */}
       <div className="w-full gap-0 bg-[#010101] overflow-hidden">
         <div className="gap-0 py-0 px-[211px] mb-3 md:mb-0 max-w-[1490px]">
-          <div className="flex flex-wrap gap-0 relative text-white">
+          <div className="flex gap-0 flex-col md:flex-row relative text-white">
             <div className="w-full relative">
               <div className="static md:absolute z-[1] right-[-4vw] top-[-12vw]">
                 <Image
