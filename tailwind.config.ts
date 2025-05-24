@@ -14,7 +14,8 @@ export default {
         redPrimaryAccent: '#FC004E',
         blueishAccent: '#10CBE0',
         white: '#FFFFFF',
-        bannerTextColor: '#00E7F9'
+        bannerTextColor: '#00E7F9',
+        navButtonColor: '#A9A9A9'
       },
       fontFamily: {
         geistSans: ["var(--font-geist-sans)"],
