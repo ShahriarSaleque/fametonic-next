@@ -4,6 +4,7 @@ import FametonicLogo from "@/assets/FameTonicLogo"
 import Button from "@/components/Button"
 import FeatureList from "@/components/FeatureList"
 import { featureList } from "@/lib/const"
+import moment from "moment"
 import Image from "next/image"
 import { useRouter } from "next/navigation"
 
@@ -11,7 +12,7 @@ export default function Home() {
   const router = useRouter()
 
   return (
-    <main className="min-h-screen w-full bg-[#010101]">
+    <main className="min-h-screen w-full bg-[#010101] h-[860px]">
       {/* Promotional Banner */}
       <div className="flex w-full py-[10px] px-[200px] justify-center items-center gap-[10px] bg-gradient-to-r from-redPrimaryAccent to-blueishAccent">
         <div className="font-figtree text-[22px] font-extrabold">
@@ -39,16 +40,15 @@ export default function Home() {
         <div className="gap-0 py-0 px-[211px] mb-3 md:mb-0 max-w-[1490px]">
           <div className="flex flex-wrap gap-0 relative text-white">
             <div className="w-full relative">
-              <div className="static md:absolute z-[1] right-0 top-0">
+              <div className="static md:absolute z-[1] right-[-4vw] top-[-12vw]">
                 <Image
                   src="/mobile.png"
                   alt="Mobile Image"
                   width={666}
                   height={679}
-                  // className="w-full h-auto lg:w-[666px] lg:h-[679px] mt-10 lg:mt-0"
                 />
               </div>
-              <div className="relative z-[2] flex flex-col justify-center min-h-0 w-full md:min-h-[679px] md:w-[45%]">
+              <div className="relative z-[2] flex flex-col justify-center min-h-0 w-full md:min-h-[679px] md:w-[49%]">
                 {/* Content section */}
                 <div className="flex flex-col items-start self-stretch lg:max-w-none max-w-[516px] flex-1 gap-[30px] mt-[57px]">
                   <div>
@@ -85,7 +85,7 @@ export default function Home() {
                       and Conditions, Privacy Policy, Subscription Terms
                     </p>
                     <p className="text-[#ABABAB] self-stretch font-figtree text-[10px] not-italic font-medium leading-normal">
-                      Fametonic 2025 ©All Rights Reserved.
+                      Fametonic {moment().format("YYYY")} ©All Rights Reserved.
                     </p>
                   </div>
                 </div>
