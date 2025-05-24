@@ -11,7 +11,18 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        redPrimaryAccent: '#FC004E',
+        blueishAccent: '#10CBE0',
+        white: '#FFFFFF',
+        bannerTextColor: '#00E7F9'
       },
+      fontFamily: {
+        geistSans: ["var(--font-geist-sans)"],
+        geistMono: ["var(--font-geist-mono)"],
+        figtree: ["var(--font-figtree)"],
+        urbanist: ["var(--font-urbanist)"],
+        nunito: ["var(--font-nunito)"],
+      }
     },
   },
   plugins: [],
