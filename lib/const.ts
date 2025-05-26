@@ -4,5 +4,3 @@ export const featureList: string[] = [
   "Use a Personal AI Worker to boost your content ",
   "Learn from expert-led courses designed for aspiring influencers",
 ]
-
-export const maxWidth = "max-w-[1200px]";

@@ -5,7 +5,7 @@ import FeatureList from "@/components/FeatureList"
 import Footer from "@/components/Footer"
 import Navbar from "@/components/Navbar"
 import PromotionalBanner from "@/components/PromotionalBanner"
-import { featureList, maxWidth } from "@/lib/const"
+import { featureList } from "@/lib/const"
 import Image from "next/image"
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
 
       {/* Main Content */}
       <div className="w-full gap-0 bg-bgColorBlack overflow-hidden">
-        <div className={`gap-0 py-0 px-5 mb-3 md:mb-0 mx-auto ${maxWidth}`}>
+        <div className="gap-0 py-0 px-5 mb-3 md:mb-0 mx-auto max-w-[1200px]">
           <div className="flex gap-0 flex-col md:flex-row relative text-white">
             <div className="w-full relative">
               <div className="md:absolute z-[1] end-0 top-0">

@@ -1,6 +1,5 @@
 import FametonicLogo from "@/assets/FameTonicLogo"
 import Button from "@/components/Button"
-import { maxWidth } from "@/lib/const"
 import { useRouter } from "next/navigation"
 
 const Navbar = () => {
@@ -8,7 +7,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full bg-bgColorBlack overflow-hidden">
-      <div className={`mx-auto px-5 ${maxWidth}`}>
+      <div className="mx-auto px-5 max-w-[1200px]">
         <nav className="w-full flex items-center justify-between relative mt-4 md:mt-9">
           <div className="flex-1 flex justify-center md:justify-start">
             <div className="w-[108px] md:w-[174px] h-[46px] md:h-[74px] shrink-0 flex items-center">
