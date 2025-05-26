@@ -15,7 +15,9 @@ export default {
         blueishAccent: '#10CBE0',
         white: '#FFFFFF',
         bannerTextColor: '#00E7F9',
-        navButtonColor: '#A9A9A9'
+        navButtonColor: '#A9A9A9',
+        bgColorBlack: '#010101',
+        footerTextColor: '#ABABAB',
       },
       fontFamily: {
         geistSans: ["var(--font-geist-sans)"],
