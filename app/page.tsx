@@ -1,5 +1,6 @@
 "use client"
 
+import ArrowRightIcon from "@/components/ArrowRightIcon"
 import FeatureList from "@/components/FeatureList"
 import Footer from "@/components/Footer"
 import Navbar from "@/components/Navbar"
@@ -50,11 +51,14 @@ export default function Home() {
                   </div>
 
                   {/* CTA Section */}
-                  <div className="flex flex-col items-center">
+                  <div className="flex flex-col items-center w-full md:w-auto">
                     <button className="flex justify-center items-center gap-[10px] px-[40px] py-2 align-self-stretch rounded-[10px] bg-redPrimaryAccent shadow-[2px_2px_10px_0px_#00E7F9] w-full sm:w-[313px] h-[60px]">
                       <div className="flex items-center gap-[10px]">
                         <span className="text-white font-figtree text-[20px] not-italic font-bold leading-normal">
                           GET STARTED
+                        </span>
+                        <span className="fill-white stroke-white stroke-1">
+                          <ArrowRightIcon />
                         </span>
                       </div>
                     </button>
